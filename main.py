@@ -220,7 +220,6 @@ class Config:
                     cur = conn.cursor()
                     cur.execute('INSERT INTO info VALUES("%s", "%s", "%s", "%s", "%s")'
                                 % (self.token, self.captcha, self.path, self.id, self.count))
-                    print(cur.fetchall())
                     conn.commit()
                     conn.close()
                     print('\n\nКонфиг был успешно создан!\n\n')
