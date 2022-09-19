@@ -8,6 +8,8 @@
 ### TERMUX
 При первом использовании термукса вводим  
 apt update && apt upgrade -y  
+termux-setup-storage  
+Перезапускаем  
 1. Для скрипта нужен питон, скачиваем  
 pkg install python 
 2. Чтобы скачать скрипт, нужен гит, его тоже скачиваем  
@@ -19,7 +21,9 @@ cd vk_photo
 5. Скачиваем модули, что использует скрипт  
 pip install -r requirements.txt
 6. Запуск скрипта  
-python main.py
+python main.py  
+7. Если файл находится в загрузках, то колдуем следующее:  
+../storage/shared/Download/имяфайла.срасширением
 ### Linux
 1. Скачиваем скрипт  
 git clone https://github.com/LinBR/vk_photo
