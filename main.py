@@ -242,7 +242,6 @@ class Config:
         conn.close()
         Nakrutka().data(data[0], data[1], data[2], data[3], data[4])
 
-    # целая функция говнокода 9
     def edit_conf(self):
         while True:
             try:
