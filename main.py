@@ -21,7 +21,6 @@ class Config:
         # переводим пользователя на авторизацию
         self.autorization()
 
-    # целая функция говнокода
     def autorization(self):
         while True:
             try:
@@ -37,7 +36,6 @@ class Config:
             except Exception as e:
                 print(f'\n\nПроизошла ошибка:\n{e}\n\n')
 
-    # целая функция говнокода 2
     def number_autorization(self):
         # авторизация через логин или пароль
         if self.authorization_method == 1:
@@ -65,7 +63,6 @@ class Config:
             print('\n\nВведите число от 1 до 7!\n\n')
             self.autorization()
 
-    # целая функция говнокода 3
     def autorization_logpass(self):
         while True:
             try:
@@ -96,7 +93,6 @@ class Config:
             except Exception as e:
                 print(f'Произшла ошибка:\n{e}')
 
-    # целая функция говнокода 4
     def autorization_token(self):
         while True:
             try:
@@ -125,7 +121,6 @@ class Config:
             except Exception as e:
                 print(f'Произошла ошибка:\n{e}')
 
-    # целая функция говнокода 5
     def anticaptcha(self):
         while True:
             try:
@@ -161,7 +156,6 @@ class Config:
             except Exception as e:
                 print(f'\n\nПроизошла ошибка:\n{e}\n')
 
-    # целая функция говнокода 6
     def path_file(self):
         while True:
             try:
@@ -186,7 +180,6 @@ class Config:
             except Exception as e:
                 print(f'\n\nПроизошла ошибка:\n{e}\n')
 
-    # целая функция говнокода 7
     def count_photo(self):
         while True:
             try:
@@ -208,7 +201,6 @@ class Config:
             except Exception as e:
                 print(f'\n\nПроизошла ошибка:\n{e}\n')
 
-    # целая функция говнокода 8
     def id_album(self):
         while True:
             try:
